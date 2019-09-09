@@ -48,6 +48,11 @@ def main():
                 "09090:"
                 "99099"))
 
+        uart.write("[U:{}] [D:{}] [L:{}] [R:{}] [ST:{}] [SL:{}] [A:{}] [B:{}]\r\n".format(
+            nes_controller.up, nes_controller.down, nes_controller.left,
+            nes_controller.right, nes_controller.start, nes_controller.select,
+            nes_controller.a, nes_controller.b))
+
         sleep(200)
 
 
