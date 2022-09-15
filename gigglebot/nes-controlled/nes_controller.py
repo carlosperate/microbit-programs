@@ -1,4 +1,6 @@
 # microbit-module: nes_controller@0.1.0
+# MIT license Copyright (c) 2019 Carlos Pereira Atencio
+# https://github.com/carlosperate/micropython-microbit-nes-controller
 from ucollections import namedtuple
 
 NesController = namedtuple(
